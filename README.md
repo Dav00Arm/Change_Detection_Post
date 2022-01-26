@@ -2,6 +2,7 @@
 ### Abstract
 The project aims to find and show the changes of two images. For example, by taking satellite images at two different times of the same place, 
 the program can detect new roads, buildings, etc. 
+
 ![A](https://github.com/Dav00Arm/Change_Detection_Post/blob/main/images/A2.jpg)
 ![B](https://github.com/Dav00Arm/Change_Detection_Post/blob/main/images/B2.jpg)
 ![OUT](https://github.com/Dav00Arm/Change_Detection_Post/blob/main/images/OUT2.jpg)

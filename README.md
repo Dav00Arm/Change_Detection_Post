@@ -2,6 +2,10 @@
 ### Abstract
 The project aims to find and show the changes of two images. For example, by taking satellite images at two different times of the same place, 
 the program can detect new roads, buildings, etc. 
+![A](https://github.com/Dav00Arm/Change_Detection_Post/blob/main/images/A0.jpg)
+![B](https://github.com/Dav00Arm/Change_Detection_Post/blob/main/images/B0.jpg)
+![OUT](https://github.com/Dav00Arm/Change_Detection_Post/blob/main/images/out0.jpg)
+
 
 ### Model
 Model architecture is Unet convolutional neural network with VGG16 encoder. 

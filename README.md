@@ -2,6 +2,7 @@
 
 The project aims to find and show the changes of two images. For example, by taking satellite images at two different times of the same place, 
 the program can detect new roads, buildings, etc. 
+
 After many trials, we decided to use Unet CNN with VGG16 encoder for training. It performed the best showing [iou score] IOU score. 
 The model is fed in this way: the data loader reads images from a directory, creates batches, passes them through augmentation techniques, then concatenates 'before' and 'after' images of the same place and with the mask of the image gives to the model. 
 The augmentation layers contain dozens of combinations and techniques like flipping, bending, cropping, padding, color changing, etc.

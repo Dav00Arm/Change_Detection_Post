@@ -2,8 +2,15 @@
 ### Abstract
 The project aims to find and show the changes of two images. For example, by taking satellite images at two different times of the same place, 
 the program can detect new roads, buildings, etc. 
-After many trials, we decided to use Unet CNN with VGG16 encoder for training. 
-Unet is known as one of the successful model architectures for image segmentation. It performed the best showing [iou score] IOU score. 
+
+### Model
+Model architecture is Unet convolutional neural network with VGG16 encoder. 
+Unet is known as one of the successful model architectures for image segmentation.
+This architecture performed the best result after many trials showing [IoU score] IoU score. 
+Currently, works are going on the creation of a Siamese Network.
+A Siamese neural network (sometimes called a twin neural network) is an artificial neural network that uses the same weights while working in tandem on two different input vectors to compute comparable output vectors.
+![architecture](https://github.com/Dav00Arm/Change_Detection_Post/blob/main/images/architecture.jpg)
+
 
 ### Data Loader
 The model is fed in this way: the data loader reads images from a directory, creates batches,

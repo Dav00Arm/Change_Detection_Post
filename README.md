@@ -26,6 +26,10 @@ The augmentation layers contain dozens of combinations and techniques like flipp
 Besides the augmentation techniques, two methods for new data creation were made. 
 The first one creates new realistic images by extracting objects from some images and using OpenCV seamless cloning pastes them on a new background. And the second one is for creating a synthetic dataset from geometric shapes. 
 Via the new datasets, the accuracy of the model has significantly increased. 
+Custom synthetic and realistic data example:
+
+![syn](https://github.com/Dav00Arm/Change_Detection_Post/blob/main/images/syn1.jpg)
+![real](https://github.com/Dav00Arm/Change_Detection_Post/blob/main/images/14_3.jpg)
 
 ### Performance
 The performance of the model was tracked by IoU score(also known as Jaccard's index), F1 score, and of course visualization by tensorboard. 
